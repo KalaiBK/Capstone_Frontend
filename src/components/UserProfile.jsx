@@ -53,7 +53,7 @@ function UserProfile() {
                             <div className="formContainer">
                                 <h2 className="p-2 text-center mb-4 h4" id="formHeading">Profile</h2>
                                 {initialValues ?
-                                    {/* Creating Formik Tag and assigning initial values */ }
+                                    /* Creating Formik Tag and assigning initial values */ 
                                         (<Formik initialValues={initialValues}
                                             /* Validating the fields in the Form */
                                             validate={(values) => {
@@ -170,10 +170,10 @@ function UserProfile() {
                                                         <label>Gender</label>
                                                         <div>
                                                             <label className="radio-inline w-25">
-                                                                <Field type="radio" name="gender" value="male" disabled />&nbsp;Male
+                                                                <Field type="radio" name="gender" value="male"/>&nbsp;Male
                                                             </label>
                                                             <label className="radio-inline">
-                                                                <Field type="radio" name="gender" value="female" disabled />&nbsp;Female
+                                                                <Field type="radio" name="gender" value="female"/>&nbsp;Female
                                                             </label>
                                                         </div>
                                                         <ErrorMessage name="gender" className="text-danger" component="div" />
