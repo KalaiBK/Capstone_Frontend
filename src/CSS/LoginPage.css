@@ -1,0 +1,39 @@
+.formContainer {
+    box-shadow: 4px 8px 16px #d7d7d7;
+    margin: 20vh auto;
+    padding: 20px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+input {
+    box-shadow: none !important;
+    outline: none;
+}
+
+#formHeading {
+    color: #e9692c;
+    margin: -20px;
+    border-radius: 4px 4px 0px 0px
+}
+
+.btn {
+    background-color: #e9692c !important;
+}
+
+.btn-primary {
+    border-color: #e9692c !important;
+}
+
+.btn-primary:hover {
+    background-color: #ffa089 !important;
+    border-color: #ffa089 !important;
+}
+
+a {
+    color: #e9692c !important;
+    text-decoration: none !important;
+}
+
+.input-group-text {
+    line-height: 0.5 !important;
+}

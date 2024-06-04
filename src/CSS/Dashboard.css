@@ -1,0 +1,12 @@
+.list-background {
+    background-color: #e9692c !important;
+}
+
+.list:hover {
+    background-color: #ffa089 !important;
+}
+
+.vertical-line {
+    border-left: 1px solid #e9692c;
+    height: 100%;
+}

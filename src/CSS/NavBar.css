@@ -1,0 +1,21 @@
+.bg-navbar {
+    background-color: #e9692c !important;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+hr {
+    margin: 0 !important;
+}
+
+.active {
+    background-color: white !important;
+    color: #e9692c !important;
+}
